@@ -20,43 +20,43 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Mark Mikhalev",
+  initials: "MM",
+  location: "Georgia, GET",
+  locationLink: "https://maps.app.goo.gl/cwQVQ9uG22Xqdhx38",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "On a mission to humanize work via bespoke AI solutions.",
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Dedicated Customer Advocate and Automation Engineer with extensive experience supporting customers and teams across diverse cultures and industries. I offer a unique skill set stemming from my rich work history, and passion for learning and helping people.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/24813520?v=4",
+  personalWebsiteUrl: "example.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "markplusgood@gmail.com",
+    tel: "555",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/markplusgood",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/markplusgood/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/MarkPlusgood",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Russian Law Academy of the Ministry of Justice",
+      degree: "Bachelor's Degree in Civil Law",
+      start: "",
+      end: "",
     },
   ],
   work: [
