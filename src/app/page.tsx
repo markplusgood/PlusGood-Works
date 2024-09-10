@@ -5,6 +5,7 @@ import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { SiTelegram } from '@icons-pack/react-simple-icons';
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
@@ -55,7 +56,7 @@ export default function Page() {
                   asChild
                 >
                   <a href={`https://t.me/markplusgood`}>
-                    <PhoneIcon className="size-4" />
+                    <SiTelegram className="size-4" />
                   </a>
                 </Button>
               ) : null}
