@@ -19,6 +19,20 @@ import {
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
+export type Position = { // Exporting Position type
+  title: string;
+  start: string;
+  end?: string;
+  description: string;
+}
+
+export type Work = {
+  company: string;
+  link: string;
+  badges: readonly string[];
+  positions: Position[];
+}
+
 export const RESUME_DATA = {
   name: "Mark Mikhalev",
   initials: "MM",
@@ -27,12 +41,12 @@ export const RESUME_DATA = {
   about:
     "Humanizing work with bespoke AI solutions",
   summary:
-    "Dedicated Customer Advocate and Automation Engineer supporting customers and teams across diverse cultures and industries. I offer a unique skill set stemming from my rich work history, and passion for helping people.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/24813520?v=4",
-  personalWebsiteUrl: "example.com",
+    "Dedicated Customer Advocate and Automation Engineer passionate for helping people across diverse cultures and industries. I offer a unique skill set stemming from my rich work experience and passion for learning.",
+  avatarUrl: "https://raw.githubusercontent.com/markplusgood/plusgood.pro/main/src/images/avatar.jpg",
+  personalWebsiteUrl: "plusgood.pro",
   contact: {
     email: "markplusgood@gmail.com",
-    tel: "555",
+    tel: "https://t.me/markplusgood",
     social: [
       {
         name: "GitHub",
@@ -51,68 +65,39 @@ export const RESUME_DATA = {
       },
     ],
   },
-  education: [
-    {
-      school: "Russian Law Academy of the Ministry of Justice",
-      degree: "Bachelor's Degree in Civil Law",
-      start: "",
-      end: "",
-    },
-  ],
+  
   work: [
     {
       company: "TripleTen",
       link: "https://tripleten.com",
       badges: ["Remote"],
-      title: "Customer Support Team Lead",
-      start: "2023",
-      end: "2023",
-      description:
-        "Led a technical and educational support team through a software transition, increasing team efficiency and well-being by training, building smooth processes, and implementing chatbots with self-service features. ",
+      positions: [
+        {
+          title: "Customer Support Team Lead",
+          start: "2023",
+          end: "2023",
+          description:
+            "Led a technical and educational support team through a software transition, increasing team efficiency and well-being by training, building smooth processes, and implementing chatbots with self-service features.",
+        },
+      ],
     },
     {
       company: "",
       link: "",
-      badges: ["⬛"],
-      title: "Senior Full Stack Developer",
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
+      badges: [""],
+      positions: [
+        {
+          title: "Senior Full Stack Developer",
+          start: "2021",
+          end: "2024",
+          description:
+            "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
+        },
+      ],
     },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
-    },
-  ],
+    // Add similar structure for other work entries...
+  ] as Work[],
+
   skills: [
     "JavaScript",
     "TypeScript",
@@ -122,6 +107,17 @@ export const RESUME_DATA = {
     "Relay",
     "WebRTC",
   ],
+
+  education: [
+    {
+      school: "Russian Law Academy of the Ministry of Justice",
+      degree: "Bachelor's Degree in Civil Law",
+      start: "",
+      end: "",
+    },
+  ],
+
+  /*  
   projects: [
     {
       title: "Parabol",
@@ -282,4 +278,7 @@ export const RESUME_DATA = {
       logo: CDGOLogo,
     },
   ],
+  */
 } as const;
+
+
