@@ -42,7 +42,7 @@ export const RESUME_DATA = {
     "Humanizing work with bespoke AI solutions",
   summary:
     "Dedicated Customer Advocate and Automation Engineer supporting customers and teams across diverse cultures and industries. I offer a unique skill set stemming from my rich work history, and passion for helping people.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/24813520?v=4",
+  avatarUrl: "https://raw.githubusercontent.com/markplusgood/plusgood.pro/main/src/images/avatar.jpg",
   personalWebsiteUrl: "example.com",
   contact: {
     email: "markplusgood@gmail.com",
