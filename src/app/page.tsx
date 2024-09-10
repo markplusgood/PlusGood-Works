@@ -54,7 +54,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
+                  <a href={`https://t.me/markplusgood`}>
                     <PhoneIcon className="size-4" />
                   </a>
                 </Button>
@@ -80,7 +80,7 @@ export default function Page() {
                 </a>
               ) : null}
               {RESUME_DATA.contact.tel ? (
-                <a href={`tel:${RESUME_DATA.contact.tel}`}>
+                <a href={`https://t.me/markplusgood`}>
                   <span className="underline">{RESUME_DATA.contact.tel}</span>
                 </a>
               ) : null}

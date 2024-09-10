@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Georgia, GET",
   locationLink: "https://maps.app.goo.gl/cwQVQ9uG22Xqdhx38",
   about:
-    "On a mission to humanize work via bespoke AI solutions.",
+    "Humanizing work with bespoke AI solutions",
   summary:
-    "Dedicated Customer Advocate and Automation Engineer with extensive experience supporting customers and teams across diverse cultures and industries. I offer a unique skill set stemming from my rich work history, and passion for learning and helping people.",
+    "Dedicated Customer Advocate and Automation Engineer supporting customers and teams across diverse cultures and industries. I offer a unique skill set stemming from my rich work history, and passion for helping people.",
   avatarUrl: "https://avatars.githubusercontent.com/u/24813520?v=4",
   personalWebsiteUrl: "example.com",
   contact: {
@@ -61,22 +61,20 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
+      company: "TripleTen",
+      link: "https://tripleten.com",
       badges: ["Remote"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
+      title: "Customer Support Team Lead",
+      start: "2023",
+      end: "2023",
       description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+        "Led a technical and educational support team through a software transition, increasing team efficiency and well-being by training, building smooth processes, and implementing chatbots with self-service features. ",
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
+      company: "",
+      link: "",
+      badges: ["⬛"],
       title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
       start: "2021",
       end: "2024",
       description:
