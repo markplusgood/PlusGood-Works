@@ -193,6 +193,7 @@ export default function Page() {
         </Section>
       */}
 
+        {/*}
         <CommandMenu
           links={[
             {
@@ -205,6 +206,7 @@ export default function Page() {
             })),
           ]}
         />
+        */}
       </section>
     </main>
   );

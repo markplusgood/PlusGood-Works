@@ -37,12 +37,12 @@ export const RESUME_DATA = {
   name: "Mark Mikhalev",
   initials: "MM",
   location: "Georgia, GET",
-  locationLink: "https://maps.app.goo.gl/cwQVQ9uG22Xqdhx38",
+  locationLink: "https://maps.app.goo.gl/KyTruQPXLKrH3yUj8",
   about:
-    "Humanizing work with bespoke AI solutions",
+    "Support automation engineer",
   summary:
-    "Dedicated Customer Advocate and Automation Engineer supporting customers and teams across diverse cultures and industries. I offer a unique skill set stemming from my rich work history, and passion for helping people.",
-  avatarUrl: "https://raw.githubusercontent.com/markplusgood/plusgood.pro/main/src/images/avatar.jpg",
+    "Dedicated Customer Advocate and Automation Engineer on a mission to humanize work with bespoke AI solutions. I offer a unique skill set stemming from my rich work history, assisting customers and teams and providing superb experiences across diverse cultures and industries.",
+  avatarUrl: "https://raw.githubusercontent.com/markplusgood/plusgood.pro/main/src/images/avatar.jpeg",
   personalWebsiteUrl: "plusgood.com",
   contact: {
     email: "markplusgood@gmail.com",
@@ -73,25 +73,89 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       positions: [
         {
-          title: "Customer Support Team Lead",
+          title: "Customer support team lead",
           start: "2023",
           end: "2023",
           description:
             "Led a technical and educational support team through a software transition, increasing team efficiency and well-being by training, building smooth processes, and implementing chatbots with self-service features.",
         },
+        {
+          title: "Senior customer support agent",
+          start: "2021",
+          end: "2023",
+          description:
+            "Fostered crew efficiency and user satisfaction by delivering technical and educational support, maintaining team's workflows and software integrations, and tracking team performance. Ensured team's adherence to company policies and standards and acted as a technical authority, providing expertise to colleagues and users.",
+        },
+        {
+          title: "Customer support agent",
+          start: "2020",
+          end: "2021",
+          description:
+            "Resolved over 3,000 cases to the highest standards, ensuring 100% compliance with company standards and providing valuable technical, educational, and emotional support to hundreds of students starting their tech careers.",
+        },
       ],
     },
     {
-      company: "",
+      company: "Freelance",
       link: "",
-      badges: [""],
+      badges: ["Remote"],
       positions: [
         {
-          title: "Senior Full Stack Developer",
-          start: "2021",
-          end: "2024",
+          title: "Digital marketing manager",
+          start: "2019",
+          end: "2020",
           description:
-            "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
+            "Led PPC campaign creation and optimization on the Google and Yandex Ads network, helping to boost sales and reduce clients' marketing spend by 30%.",
+        },
+        {
+          title: "Translator",
+          start: "2019",
+          end: "2020",
+          description:
+            "Translated and localizated diverse entertainment and business material in English, Russian, and Spanish, ensuring cultural accuracy and relevance.",
+        },
+      ],
+    },
+    {
+      company: "Instaon",
+      link: "https://instaon.io/en",
+      badges: ["Remote"],
+      positions: [
+        {
+          title: "Customer success manager",
+          start: "2019",
+          end: "2019",
+          description:
+            "Guided hundreds of small businesses and agencies in integrating a novel AI solution into marketing strategies before the AI hype.",
+        },
+        
+      ],
+    },
+    {
+      company: "Farbik",
+      link: "https://farbik.ru/",
+      badges: ["Remote"],
+      positions: [
+        {
+          title: "Senior editor",
+          start: "2015",
+          end: "2016",
+          description:
+            "Supervised a distributed team of 150 content editors, copywriters, and designers in delivering valuable high-quality content that met usability and SEO standards, ensuring project long-term profitability.",
+        },
+        {
+          title: "Web content editor",
+          start: "2013",
+          end: "2015",
+          description:
+            "Managed a team of a couple dozen copywriters and graphic designers, ensuring content alignment with SEO and usability standards.",
+        },
+        {
+          title: "Copywriter",
+          start: "2012",
+          end: "2013",
+          description:
+            "Produced over 1,000 educational articles on various topics, ensuring style consistency, readability, and SEO compliance for maÇimum content performance and reader engagement.",
         },
       ],
     },
@@ -99,13 +163,30 @@ export const RESUME_DATA = {
   ] as Work[],
 
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
+    "Software Troubleshooting",
+    "Python",
+    "SQL",
+    "API Integration",
+    "GIT",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Data Analysis",
+    "Quality Assurance",
+    "Workflow Building",
+    "Customer Feedback Analysis",
+    "Project Management",
+    "Team Development",
+    "Business Communications",
+    "Technical & Creative Writing",
+    "Chatbot Development",
+    "CRM Systems",
+    "HubSpot Development and Administration",
+    "Data Visualization",
+    "Web Design",
+    "Low-Code Development",
+    "Prompt Engineering",
   ],
 
   education: [
