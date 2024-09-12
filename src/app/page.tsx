@@ -77,7 +77,6 @@ export default function Page() {
                 </Button>
               ))}
               
-
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex print:text-[12px]">
               {RESUME_DATA.contact.email ? (
