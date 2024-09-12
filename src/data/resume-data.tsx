@@ -41,11 +41,11 @@ export const RESUME_DATA = {
   about:
     "Support automation engineer",
   summary:
-    "Dedicated Customer Advocate and Automation Engineer on a mission to humanize work with bespoke AI solutions. I offer a unique skill set stemming from my rich work history, assisting customers and teams and providing superb experiences across diverse cultures and industries.",
+    "I am a dedicated Customer Advocate and Automation Engineer on a mission to humanize work with bespoke AI solutions. My unique skill set stems from my extensive work history across diverse industries and cultures. I am passionate about helping people, creating exceptional experiences, and making this world a better place for the generations to follow. ",
   avatarUrl: "https://raw.githubusercontent.com/markplusgood/plusgood.pro/main/src/images/avatar.jpeg",
   personalWebsiteUrl: "plusgood.com",
   contact: {
-    email: "markplusgood@gmail.com",
+    email: "mark@plusgood.pro",
     tel: "https://t.me/markplusgood",
     social: [
       {
@@ -58,11 +58,14 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/markplusgood/",
         icon: LinkedInIcon,
       },
+      
+      /*
       {
         name: "X",
         url: "https://x.com/MarkPlusgood",
         icon: XIcon,
       },
+      */
     ],
   },
   
@@ -168,11 +171,10 @@ export const RESUME_DATA = {
     "SQL",
     "API Integration",
     "GIT",
-    "Node.js",
     "JavaScript",
     "HTML",
     "CSS",
-    "Data Analysis",
+    "Data Analysis & Presentation",
     "Quality Assurance",
     "Workflow Building",
     "Customer Feedback Analysis",
@@ -181,12 +183,14 @@ export const RESUME_DATA = {
     "Business Communications",
     "Technical & Creative Writing",
     "Chatbot Development",
-    "CRM Systems",
-    "HubSpot Development and Administration",
-    "Data Visualization",
+    "CRM & Helpdesk Systems Administration",
     "Web Design",
-    "Low-Code Development",
+    "Low/No-Code Development",
     "Prompt Engineering",
+    "Stress Management",
+    "Conflict Resolution",
+    "Proactive Problem-Resolution",
+
   ],
 
   education: [
