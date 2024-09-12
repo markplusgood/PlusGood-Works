@@ -41,11 +41,7 @@ export const RESUME_DATA = {
   about:
     "Support automation engineer",
   summary:
-<<<<<<< HEAD
-    "Dedicated Customer Advocate and Automation Engineer on a mission to humanize work with bespoke AI solutions. I offer a unique skill set stemming from my rich work history and passion for helping people and learning ways of building exceptional experiences across diverse cultures and industries.",
-=======
-    "I am a dedicated Customer Advocate and Automation Engineer on a mission to humanize work with bespoke AI solutions. My unique skill set stems from my extensive work history across diverse industries and cultures. I am passionate about helping people, creating exceptional experiences, and making this world a better place for the generations to follow. ",
->>>>>>> developing
+    "I am a dedicated Customer Advocate and Automation Engineer on a mission to humanize work with bespoke AI solutions. My unique skill set stems from my extensive work history across diverse industries and cultures. I am passionate about helping people, creating exceptional experiences, and making this world a better place for future generations.",
   avatarUrl: "https://raw.githubusercontent.com/markplusgood/plusgood.pro/main/src/images/avatar.jpeg",
   personalWebsiteUrl: "plusgood.com",
   contact: {
