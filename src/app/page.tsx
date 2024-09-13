@@ -13,7 +13,7 @@ import { Position } from "@/data/resume-data";
 import { Work } from "@/data/resume-data";
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | 🐱‍🏍 ${RESUME_DATA.about}`,
+  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
   description: RESUME_DATA.summary,
 };
 
