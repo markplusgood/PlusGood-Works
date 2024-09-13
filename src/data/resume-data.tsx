@@ -52,7 +52,7 @@ export const RESUME_DATA = {
       */
       {
         name: "Download",
-        url: "",
+        url: "public/drive/Mark Mikhalev CV.pdf",
         icon: Download,
       },
     ],
