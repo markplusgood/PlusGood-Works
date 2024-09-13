@@ -84,7 +84,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={`/Mark Mikhalev CV.pdf`} target="_blank" type="application/octet-stream" download="Mark Mikhalev CV.pdf" >
+                  <a href={`/Mark Mikhalev CV.pdf`} target="_blank" >
                     <Download className="size-4" />
                   </a>
                 </Button>
