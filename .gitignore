@@ -19,6 +19,7 @@
 # misc
 .DS_Store
 *.pem
+.bash_history
 
 # debug
 npm-debug.log*
@@ -38,6 +39,3 @@ next-env.d.ts
 # ide
 .idea
 
-# misc
-.Chat.txt
-.bash_history
