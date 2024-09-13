@@ -84,7 +84,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={`public/drive/Mark Mikhalev CV.pdf`} target="_blank">
+                  <a href={`/Mark Mikhalev CV.pdf`} download="Mark Mikhalev CV.pdf">
                     <Download className="size-4" />
                   </a>
                 </Button>
