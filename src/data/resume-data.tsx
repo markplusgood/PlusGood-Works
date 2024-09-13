@@ -1,23 +1,5 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { Download } from "lucide-react";
 
 export type Position = { // Exporting Position type
   title: string;
@@ -47,6 +29,7 @@ export const RESUME_DATA = {
   contact: {
     email: "mark@plusgood.pro",
     tel: "https://t.me/markplusgood",
+    download: "",
     social: [
       {
         name: "GitHub",
@@ -59,6 +42,7 @@ export const RESUME_DATA = {
         icon: LinkedInIcon,
       },
       
+     
       /*
       {
         name: "X",
@@ -66,6 +50,11 @@ export const RESUME_DATA = {
         icon: XIcon,
       },
       */
+      {
+        name: "Download",
+        url: "",
+        icon: Download,
+      },
     ],
   },
   
@@ -87,7 +76,7 @@ export const RESUME_DATA = {
           start: "2021",
           end: "2023",
           description:
-            "Fostered crew efficiency and user satisfaction by delivering technical and educational support, maintaining team's workflows and software integrations, and tracking team performance. Ensured team's adherence to company policies and standards and acted as a technical authority, providing expertise to colleagues and users.",
+            "Fostered crew efficiency and user satisfaction by delivering exceptional technical and educational support, maintaining team's workflows and software integrations, and tracking team performance. Ensured team's adherence to company policies and standards and acted as a technical authority, providing expertise to colleagues and users.",
         },
         {
           title: "Customer support agent",

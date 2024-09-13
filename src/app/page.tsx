@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { GlobeIcon, MailIcon, PhoneIcon, Download } from "lucide-react";
 import { SiTelegram } from '@icons-pack/react-simple-icons';
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
@@ -45,7 +45,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={`mailto:${RESUME_DATA.contact.email}`}>
+                  <a href={`mailto:${RESUME_DATA.contact.email}`} target="_blank">
                     <MailIcon className="size-4" />
                   </a>
                 </Button>
@@ -57,7 +57,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={`https://t.me/markplusgood`}>
+                  <a href={`https://t.me/markplusgood`} target="_blank">
                     <SiTelegram className="size-4" />
                   </a>
                 </Button>
@@ -77,7 +77,20 @@ export default function Page() {
                 </Button>
               ))}
               
+              {RESUME_DATA.contact.download ? (
+                <Button
+                  className="size-8"
+                  variant="outline"
+                  size="icon"
+                  asChild
+                >
+                  <a href={``} target="_blank">
+                    <Download className="size-4" />
+                  </a>
+                </Button>
+              ) : null}
             </div>
+
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex print:text-[12px]">
               {RESUME_DATA.contact.email ? (
                 <a href={`mailto:${RESUME_DATA.contact.email}`}>
