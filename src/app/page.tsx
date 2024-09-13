@@ -71,7 +71,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={social.url}>
+                  <a href={social.url} target="_blank">
                     <social.icon className="size-4" />
                   </a>
                 </Button>
@@ -84,7 +84,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={``} target="_blank">
+                  <a href={`/Mark Mikhalev CV.pdf`} target="_blank" type="application/octet-stream" download="Mark Mikhalev CV.pdf" >
                     <Download className="size-4" />
                   </a>
                 </Button>
