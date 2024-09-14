@@ -87,27 +87,7 @@ export const RESUME_DATA = {
         },
       ],
     },
-    {
-      company: "Freelance",
-      link: "",
-      badges: ["Remote"],
-      positions: [
-        {
-          title: "Digital marketing manager",
-          start: "2019",
-          end: "2020",
-          description:
-            "Managed PPC campaigns on the Google and Yandex Ads networks, boosting sales and reducing clients' marketing spend by 30%.",
-        },
-        {
-          title: "Translator",
-          start: "2019",
-          end: "2020",
-          description:
-            "Translated and localized diverse entertainment and business material in English, Russian, and Spanish, ensuring cultural accuracy and relevance.",
-        },
-      ],
-    },
+    
     {
       company: "Instaon",
       link: "https://instaon.io/en",
@@ -123,6 +103,29 @@ export const RESUME_DATA = {
         
       ],
     },
+
+    {
+      company: "Freelance",
+      link: "",
+      badges: ["Remote"],
+      positions: [
+        {
+          title: "Digital marketing manager",
+          start: "2017",
+          end: "2019",
+          description:
+            "Managed PPC campaigns on the Google and Yandex Ads networks, boosting sales and reducing clients' marketing spend by 30%.",
+        },
+        {
+          title: "Translator",
+          start: "2017",
+          end: "2019",
+          description:
+            "Translated and localized diverse entertainment and business material in English, Russian, and Spanish, ensuring cultural accuracy and relevance.",
+        },
+      ],
+    },
+
     {
       company: "Farbik",
       link: "https://farbik.ru/",
