@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 import "./globals.css";
 import React from "react";
@@ -25,6 +26,7 @@ export default function RootLayout({
     <html lang="en" className={inter.className}>
       <body>{children}</body>
       <Analytics />
+      <GoogleAnalytics gaId="G-PHBMXCD0E6"/>
     </html>
   );
 }
