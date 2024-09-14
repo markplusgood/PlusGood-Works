@@ -11,7 +11,8 @@ import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 import { Position } from "@/data/resume-data";
 import { Work } from "@/data/resume-data";
-
+import { GoogleTagManager } from '@next/third-parties/google'
+ 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
   description: RESUME_DATA.summary,
@@ -223,6 +224,8 @@ export default function Page() {
         />
         */}
       </section>
+      <GoogleTagManager gtmId="G-PHBMXCD0E6" />
     </main>
+    
   );
 }
