@@ -85,7 +85,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={`/Mark Mikhalev CV.pdf`} target="_blank" download="Mark Mikhalev">
+                  <a href={`/Support automation engineer - Mark Mikhalev - CV.pdf`} target="_blank" download="Mark Mikhalev">
                     <Download className="size-4" />
                   </a>
                 </Button>
