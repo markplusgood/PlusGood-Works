@@ -142,13 +142,13 @@ export const RESUME_DATA = {
           description:
             "Managed a team of a couple dozen copywriters and graphic designers, ensuring content alignment with SEO and usability standards.",
         },
-        {
+        /*{
           title: "Copywriter",
           start: "2012",
           end: "2013",
           description:
             "Produced over 1,000 educational articles on various topics, ensuring style consistency, readability, and SEO compliance for maximum content performance and reader engagement.",
-        },
+        }, */
       ],
     },
     // Add similar structure for other work entries...
