@@ -23,9 +23,9 @@ export const RESUME_DATA = {
   about:
     "Support automation engineer",
   summary:
-    "I am a dedicated Customer Advocate and Automation Engineer on a mission to humanize work with bespoke AI solutions. My unique skill set stems from my extensive work history across diverse industries and cultures. I am passionate about helping people, creating exceptional experiences, and making this world a better place for the generations to follow. ",
+    "Passionate Customer Advocate and Automation Engineer with extensive work experience across diverse industries and cultures. I am dedicated to creating exceptional customer experiences and leveraging technology to make this world a better place.",
   avatarUrl: "https://raw.githubusercontent.com/markplusgood/plusgood.pro/main/src/images/avatar.jpeg",
-  personalWebsiteUrl: "plusgood.com",
+  personalWebsiteUrl: "plusgood.pro",
   contact: {
     email: "mark@plusgood.pro",
     tel: "https://t.me/markplusgood",
@@ -97,14 +97,14 @@ export const RESUME_DATA = {
           start: "2019",
           end: "2020",
           description:
-            "Led PPC campaign creation and optimization on the Google and Yandex Ads network, helping to boost sales and reduce clients' marketing spend by 30%.",
+            "Managed PPC campaigns on the Google and Yandex Ads networks, boosting sales and reducing clients' marketing spend by 30%.",
         },
         {
           title: "Translator",
           start: "2019",
           end: "2020",
           description:
-            "Translated and localizated diverse entertainment and business material in English, Russian, and Spanish, ensuring cultural accuracy and relevance.",
+            "Translated and localized diverse entertainment and business material in English, Russian, and Spanish, ensuring cultural accuracy and relevance.",
         },
       ],
     },
@@ -133,7 +133,7 @@ export const RESUME_DATA = {
           start: "2015",
           end: "2016",
           description:
-            "Supervised a distributed team of 150 content editors, copywriters, and designers in delivering valuable high-quality content that met usability and SEO standards, ensuring project long-term profitability.",
+            "Supervised a distributed team of 150 content editors, copywriters, and designers in delivering valuable reader-friendly content that met usability and SEO standards, ensuring project long-term profitability.",
         },
         {
           title: "Web content editor",
@@ -147,7 +147,7 @@ export const RESUME_DATA = {
           start: "2012",
           end: "2013",
           description:
-            "Produced over 1,000 educational articles on various topics, ensuring style consistency, readability, and SEO compliance for maÇimum content performance and reader engagement.",
+            "Produced over 1,000 educational articles on various topics, ensuring style consistency, readability, and SEO compliance for maximum content performance and reader engagement.",
         },
       ],
     },
