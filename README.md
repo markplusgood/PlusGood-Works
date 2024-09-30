@@ -7,7 +7,7 @@
         Built with Next.js and shadcn/ui, deployed on Vercel.
     </div>
     <div style="flex: 0 0 auto;">
-        ![cv](https://github.com/markplusgood/plusgood.pro/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2 | width=640)
+        ![screenshot](/public/web_page.png | width=640)
     </div>
 </div>
 
