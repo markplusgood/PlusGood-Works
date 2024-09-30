@@ -1,15 +1,10 @@
 # Minimalist CV [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmarkplusgood%2Fplusgood.pro)
 
-<div style="display: flex; align-items: center;">
-    <div style="flex: 1; padding-right: 20px;">
-        Simple web app that renders minimalist CV with print-friendly layout.<br>
-        <br>
-        Built with Next.js and shadcn/ui, deployed on Vercel.
-    </div>
-    <div style="flex: 0 0 auto;">
-        ![screenshot](https://raw.githubusercontent.com/markplusgood/plusgood-pro/refs/heads/main/public/web_page.png)
-    </div>
-</div>
+Simple web app that renders minimalist CV with print-friendly layout.
+
+Built with Next.js and shadcn/ui, deployed on Vercel.
+
+![screenshot](https://raw.githubusercontent.com/markplusgood/plusgood-pro/refs/heads/main/public/web_page.png)
 
 ## Features
 
